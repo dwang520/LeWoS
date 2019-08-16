@@ -5,7 +5,7 @@ Tree leaf-wood separation from point cloud data <br/>
 There are many ways to use this tool.<br/> 
 **(a) if you have Matlab installed:**<br/>
 Option 1. Call the entry level funtion "RecursiveSegmentation_release.m".<br/> 
-Option 2. Type "LeWoS_RS" in Matlab workspace. This will call the classdef "LeWoS_RS.m". This classdef file defines the an interface.<br/> 
+Option 2. Type "LeWoS_RS" in Matlab workspace. This will open up an interface by calling the classdef "LeWoS_RS.m". This classdef file defines the interface.<br/> 
 Option 3. Drag "LeWoS.mlappinstall" into Matlab workspace. This will install a Matlab App for you. <br/> 
 **(b) if you don't have Matlab installed, and don't want to install it:**<br/>
 Download the standalone excutable for window system from https://drive.google.com/open?id=1SvQbmRy547MX0QihyatsSaaWkGjosyFk. If you need an excutable for other systems, please contact me.<br/> 
