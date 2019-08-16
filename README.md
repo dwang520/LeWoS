@@ -13,9 +13,9 @@ Download the standalone excutable for window system from https://drive.google.co
 *Note that if you load an ascii point cloud with the interface, only space delimiter is supported. (Recommend to use las files)
 
 # Acknowledgement
-This repo contains code from Loic Landrieu's repo on point-cloud-regularization (https://github.com/loicland/point-cloud-regularization), and Inverse Tampere's TreeQSM (https://github.com/InverseTampere/TreeQSM).
+This repo contains code from Loic Landrieu's repo on point-cloud-regularization (https://github.com/loicland/point-cloud-regularization), and Inverse Tampere's repo on TreeQSM (https://github.com/InverseTampere/TreeQSM).
 
 # Bibtex
 # Contact
-Di Wang
+Di Wang<br/> 
 di.wang@aalto.fi
