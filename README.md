@@ -10,7 +10,7 @@ Option 3. Drag "LeWoS.mlappinstall" into Matlab workspace. This will install a M
 **(b) if you don't have Matlab installed, and don't want to install it:**<br/>
 Download the standalone excutable for window system from XXXXX. If you need an excutable for other systems, please contact me.<br/> 
 
-*Note that if you load a ascii point cloud with the interface, only space delimiter is supported. 
+*Note that if you load an ascii point cloud with the interface, only space delimiter is supported. (Recommend to use las files)
 
 # Acknowledgement
 This repo contains code from Loic Landrieu's repo on point-cloud-regularization (https://github.com/loicland/point-cloud-regularization), and Inverse Tampere's TreeQSM (https://github.com/InverseTampere/TreeQSM).
