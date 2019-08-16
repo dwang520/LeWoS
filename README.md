@@ -15,7 +15,7 @@ Download the standalone excutable for window system from XXXXX. If you need an e
 # Acknowledgement
 This repo contains code from Loic Landrieu's repo on point-cloud-regularization (https://github.com/loicland/point-cloud-regularization), and Inverse Tampere's TreeQSM (https://github.com/InverseTampere/TreeQSM).
 
-# 
+# Bibtex
 # Contact
 Di Wang
 di.wang@aalto.fi
