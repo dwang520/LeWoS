@@ -1,4 +1,4 @@
-function [BiLabel, BiLabel_Regu] = IterativeSegmentation_amap(points,ft_threshold,paral,plot)
+function [BiLabel, BiLabel_Regu] = RecursiveSegmentation_release(points,ft_threshold,paral,plot)
 % points: nx3
 % ft_threshold: threshold
 % paral: if shut down parallel pool after segmentation (1 or other)
