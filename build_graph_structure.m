@@ -36,7 +36,7 @@ if (edge_weight_mode>0)
 elseif (edge_weight_mode<0)
     edge_weight = exp(distance / (d0 * edge_weight_mode));
 end
-%edge_weight = reshape(edge_weight, [1 (k * n_point)])';
+% edge_weight = reshape(edge_weight, [1 (k * n_point)])';
 edge_weight = reshape(edge_weight', [1 (k * n_point)])';
 %---pruning----------------------------------------------------------------
 dt = mean(distance,2) + std(distance,0,2);
@@ -45,17 +45,16 @@ pruned      = reshape(prune', [1 (k * n_point)])';
 %---remove self edges and pruned edges-------------------------------------
 selfedge = source==target;
 to_remove = selfedge + pruned;
-source      = source(~to_remove);
-target      = target(~to_remove);
+source      = source(~to_remove) - 1;
+target      = target(~to_remove) - 1;
 edge_weight = edge_weight(~to_remove);
-%% avoid using unique
-Edge  = [[source;target],[target;source]];
-Weight = [edge_weight;edge_weight]; 
-adj = sparse(Edge(:,1),Edge(:,2),Weight,size(pts,1),size(pts,1));
-[source,target,edges_weight] = find(adj);
-source = source-1;
-target = target-1;
+%---symetrizing the graph -------------------------------------------------
+double_edges_coord  = [[source;target],[target;source]];
+double_edges_weight = [edge_weight;edge_weight];                 
+[edges_coord, order] = unique(double_edges_coord, 'rows');
+edges_weight = double_edges_weight(order);
 %---filling the structure -------------------------------------------------
-graph.source      = int32(source);
-graph.target      = int32(target);
+graph.source      = int32(edges_coord(:,1));
+graph.target      = int32(edges_coord(:,2));
 graph.edge_weight = single(edges_weight);
+end
