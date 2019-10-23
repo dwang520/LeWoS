@@ -1,5 +1,5 @@
 # LeWoS <br/> 
-[![DOI](https://zenodo.org/badge/202789309.svg)](https://zenodo.org/badge/latestdoi/202789309)
+[![DOI](https://zenodo.org/badge/202789309.svg)](https://zenodo.org/badge/latestdoi/202789309) <br/> 
 Tree leaf-wood separation from point cloud data <br/> 
 
 # Usage<br/> 
