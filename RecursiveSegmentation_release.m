@@ -204,7 +204,7 @@ Pli = Freq/size(allc,1);
 
 % addpath('./GCMex')
 % build adjacent graph (similar to the one in "GraphRG")
-graph = build_graph_structure(Pts,10,0);
+graph = build_graph_structure(Pts,20,0);
 % initial class probability from our "Pli"
 initial_classif = single([Pli,1-Pli]);
 % alpha expansion method, output is the regularized label per point
