@@ -1,6 +1,6 @@
 # LeWoS <br/> 
-[![DOI](https://zenodo.org/badge/202789309.svg)](https://zenodo.org/badge/latestdoi/202789309) <br/> 
-Tree leaf-wood classification from point cloud data <br/> 
+
+Unsupervised tree leaf-wood classification from point cloud data <br/> 
 
 # Usage<br/> 
 There are many ways to use this tool.<br/> 
