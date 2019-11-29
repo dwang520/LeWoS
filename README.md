@@ -25,7 +25,7 @@ Very thin branches are difficult to detect
 This repo contains code from Loic Landrieu's repo on point-cloud-regularization (https://github.com/loicland/point-cloud-regularization), and Inverse Tampere's repo on TreeQSM (https://github.com/InverseTampere/TreeQSM).
 
 # Bibtex
-
+(Current code is a slightly updated version of the one used in publication. With current one, the results are further improved a bit. e.g., 0.925 ± 0.035 vs 0.91 ± 0.03 in the paper.)
 # Contact
 Di Wang<br/> 
 di.wang@aalto.fi
