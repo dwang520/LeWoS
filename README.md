@@ -11,7 +11,7 @@ Option 3. Drag "LeWoS.mlappinstall" into Matlab workspace. This will install a M
 **(b) if you don't have Matlab installed, and don't want to install it:**<br/>
 Run "LeWoS_installer.exe" for win64. If you need an excutable for other systems, please contact me.<br/> (PS: Matlab Runtime 2019b is required. You can either install it in advance or do it during the installation of LeWoS.)
 
-*Note that if you load an ascii point cloud with the interface, only space delimiter is supported. (Recommend to use las files)
+*Note that if you load an ascii point cloud with the interface, only space delimiter is supported. (Recommend to use las files) <br/> 
 *This method does not implement any post-processing filters. Users can design and apply post-processing steps to [potentially] further improve the results.
 
 # Examples
