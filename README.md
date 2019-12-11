@@ -1,5 +1,5 @@
 # LeWoS <br/> 
-[![DOI](https://zenodo.org/badge/202789309.svg)](https://zenodo.org/badge/latestdoi/202789309) <br/>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3516856.svg)](https://doi.org/10.5281/zenodo.3516856) <br/>
 
 Unsupervised tree leaf-wood classification from point cloud data <br/> 
 
@@ -35,7 +35,7 @@ volume = {n/a},<br/>
 number = {n/a},<br/>
 pages = {},<br/>
 doi = {10.1111/2041-210X.13342},<br/>
-url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13342}<br/>
+url = { https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13342 }<br/>
 }<br/>
 (Current code is a slightly updated version of the one used in publication. With current one, the results are further improved a bit. e.g., 0.925 ± 0.035 vs 0.91 ± 0.03 in the paper.)
 
