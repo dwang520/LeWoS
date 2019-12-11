@@ -28,7 +28,7 @@ This repo contains code from Loic Landrieu's repo on point-cloud-regularization 
 
 # Bibtex
 @article{xxx,<br/>
-author = {Wang, Di and Takoudjou, Stéphane Momo and Casella, Eric},<br/>
+author = {Wang, Di and Momo Takoudjou, Stéphane and Casella, Eric},<br/>
 title = {LeWoS: A Universal Leaf-wood Classification Method to Facilitate the 3D Modelling of Large Tropical Trees Using Terrestrial LiDAR},<br/>
 journal = {Methods in Ecology and Evolution},<br/>
 volume = {n/a},<br/>
