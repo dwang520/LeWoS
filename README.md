@@ -27,18 +27,18 @@ Very thin branches are difficult to detect
 This repo contains code from Loic Landrieu's repo on point-cloud-regularization (https://github.com/loicland/point-cloud-regularization), and Inverse Tampere's repo on TreeQSM (https://github.com/InverseTampere/TreeQSM).
 
 # Bibtex
-@article{doi:10.1111/2041-210X.13342,
-author = {Di, Wang and Momo Takoudjou, Stéphane and Casella, Eric},
-title = {LeWoS: A Universal Leaf-wood Classification Method to Facilitate the 3D Modelling of Large Tropical Trees Using Terrestrial LiDAR},
-journal = {Methods in Ecology and Evolution},
-volume = {n/a},
-number = {n/a},
-pages = {},
-keywords = {component separation, point cloud, regularization, segmentation, Terrestrial LiDAR, TreeQSM, tropical forest trees, volume},
-doi = {10.1111/2041-210X.13342},
-url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13342}
-}
+@article{xxx,<br/>
+author = {Di, Wang and Momo Takoudjou, Stéphane and Casella, Eric},<br/>
+title = {LeWoS: A Universal Leaf-wood Classification Method to Facilitate the 3D Modelling of Large Tropical Trees Using Terrestrial LiDAR},<br/>
+journal = {Methods in Ecology and Evolution},<br/>
+volume = {n/a},<br/>
+number = {n/a},<br/>
+pages = {},<br/>
+doi = {10.1111/2041-210X.13342},<br/>
+url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13342}<br/>
+}<br/>
 (Current code is a slightly updated version of the one used in publication. With current one, the results are further improved a bit. e.g., 0.925 ± 0.035 vs 0.91 ± 0.03 in the paper.)
+
 # Contact
 Di Wang<br/> 
 di.wang@aalto.fi
