@@ -6,13 +6,25 @@ Unsupervised tree leaf-wood classification from point cloud data <br/>
 # Usage<br/> 
 There are many ways to use this tool.<br/> 
 **(a) if you have Matlab installed:**<br/>
-Option 1. Call the entry level funtion "RecursiveSegmentation_release.m".<br/> 
+Option 1. Call the entry level funtion "RecursiveSegmentation_release.m" as:<br/> 
+“[BiLabel, BiLabel_Regu] = RecursiveSegmentation_release(points, ft_threshold, paral, plot);”<br/> 
+Inputs:<br/> 
+% points: this is your nx3 matrix.<br/> 
+% ft_threshold: feature threshold. suggest using 0.125 or so <br/> 
+% paral: if shut down parallel pool after segmentation (1 or other). <br/> 
+% plot: if plot results in the end (1 or other)<br/> 
+Outputs:<br/> 
+% BiLabel: point label without regularization<br/> 
+% BiLabel_Regu: point label with regularization<br/> 
+
 Option 2. Type "LeWoS_RS" in Matlab workspace. This will open up an interface by calling the classdef "LeWoS_RS.m". This classdef file defines the interface.<br/> 
+
 Option 3. Drag "LeWoS.mlappinstall" into Matlab workspace. This will install a Matlab App for you. <br/> 
+
 **(b) if you don't have Matlab installed, and don't want to install it:**<br/>
 Run "LeWoS_installer.exe" for win64. If you need an excutable for other systems, please contact me.<br/> (PS: Matlab Runtime 2019b is required. You can either install it in advance or do it during the installation of LeWoS.)
 
-*Note that if you load an ascii point cloud with the interface, only space delimiter is supported. (Recommend to use las files) <br/> 
+*Note that if you load an ascii point cloud with the interface, only space delimiter is supported (without header). Current, these formats are supported: .las; .laz; .mat; .xyz; .txt; .ply; .pcd (Recommend to usemore generic formats for point clouds, such as las, ply, and pcd) <br/> 
 *This method does not implement any post-processing filters. Users can design and apply post-processing steps to [potentially] further improve the results.
 
 # Examples
