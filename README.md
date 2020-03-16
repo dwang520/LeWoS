@@ -50,7 +50,7 @@ number = {3},<br/>
 pages = {376-389},<br/>
 keywords = {biomass estimation, component separation, leaf-wood separation, LeWoS, point cloud, terrestrial LiDAR, TreeQSM, tropical forest trees},<br/>
 doi = {10.1111/2041-210X.13342},<br/>
-url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13342},<br/>
+url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13342 },<br/>
 year = {2020}<br/>
 }<br/>
 (Current code is a slightly updated version of the one used in publication. With current one, the results are further improved a bit. e.g., 0.925 ± 0.035 vs 0.91 ± 0.03 in the paper.)
