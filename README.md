@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3516856.svg)](https://doi.org/10.5281/zenodo.3516856) <br/>
 
 Unsupervised tree leaf-wood classification from point cloud data (for plot-scale data and single trees) <br/> 
-(An upgraded version is coming soon!) <br/>
+--- (An upgraded version is coming soon!) --- <br/>
 
 # Usage<br/> 
 There are many ways to use this tool.<br/> 
