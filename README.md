@@ -29,7 +29,7 @@ Option 3. Drag "LeWoS.mlappinstall" into Matlab workspace. This will install a M
 Run "LeWoS_installer.exe" for win64. If you need an excutable for other systems (Linux and Mac), please contact me.<br/> (PS: Matlab Runtime 2019b (freely available at https://se.mathworks.com/products/compiler/matlab-runtime.html) is required. You can either install it in advance or do it during the installation of LeWoS.)
 
 --------------------------<br/>
-*Note that if you load an ascii point cloud with the interface, only space delimiter is supported (without header). Currently, these formats are supported: .las; .laz; .mat; .xyz; .txt; .ply; .pcd (recommend to use more generic formats for point clouds, such as las, ply, and pcd) <br/> 
+*Note that if you load an ascii point cloud with the interface, only space delimiter is supported (without header). Currently, these formats are supported: .las; .mat; .xyz; .txt; .ply; .pcd (recommend to use more generic formats for point clouds, such as las, ply, and pcd) <br/> 
 *This method does not implement any post-processing filters. Users can design and apply post-processing steps to [potentially] further improve the results.
 
 # Examples
