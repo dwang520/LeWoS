@@ -1,6 +1,8 @@
 # LeWoS <br/> 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3516856.svg)](https://doi.org/10.5281/zenodo.3516856) <br/>
 
+GCMex file (became invalide for matlab 2020a and later) for windows64 is updated
+
 Unsupervised tree leaf-wood classification from point cloud data (for plot-scale data and single trees) <br/> 
 --- (An upgraded version is coming soon!) --- <br/>
 
