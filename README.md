@@ -60,4 +60,4 @@ year = {2020}<br/>
 
 # Contact
 Di Wang<br/> 
-di.wang@aalto.fi
+di-wang@foxmail.com
