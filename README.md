@@ -1,12 +1,9 @@
 # LeWoS
 
+> [!IMPORTANT]
+> **Please use the [Python version](https://github.com/dwang520/LeWoS-py) instead.** The Python implementation is more general-purpose and easier to install and use; results may differ slightly from this original MATLAB version.
+
 Original MATLAB implementation of LeWoS, an unsupervised leaf-wood classification method for terrestrial laser scanning (TLS) point clouds.
-
-## Please use the Python version
-
-The [Python implementation](https://github.com/dwang520/LeWoS-py) is now recommended. It is more general-purpose and easier to install and use.
-
-Note: results of the Python version may differ slightly from this original MATLAB version.
 
 ## Citation
 
